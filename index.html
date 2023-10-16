@@ -63,7 +63,59 @@
       <div class="backdrop is-hidden" data-modal>
         <div class="modal-content">
           <button class="close" data-modal-close>
+            <svg class="close-buttton">
+              <use href="./images/symbol-defs.svg#icon-close"/>
+            </svg>
           </button>
+          <form name="contact-form" autocomplete="off" class="contact-form">
+          <p class="form-title">Leave your information and we'll call you back</p>
+            <div class="form-label">
+            <label>Name
+              <div class="form-input">
+                <svg>
+                  <use href="./images/symbol-defs.svg#icon-person-black-18dp-1"/>
+                </svg>
+              <input name="name" class="input"/>
+              </div>
+            </label>
+            </div>
+            <div class="form-label">
+            <label >Telephone
+              <div class="form-input">
+                <svg>
+                  <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"/>
+                </svg>
+              <input type="tel" name="telephone" class="input"/>
+              </div>
+            </label>
+            </div>
+            <div class="form-label">
+            <label>E-mail
+              <div class="form-input">
+                <svg>
+                  <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"/>
+                </svg>
+              <input type="email" name="e-mail" class="input"/>
+              </div>
+            </label>
+            </div>
+            <div class="form-label">
+            <label>Comments
+              <div class="comments">
+              <textarea name="comments" rows="5" placeholder="Enter the text" class="comments-input"></textarea>
+              </div>
+            </label>
+            </div>
+            <div class="terms-and-conditions-validation">
+            <label class="terms-and-conditions-acceptance">
+              <input type="checkbox" name="checkbox-terms-and-conditions" class="checkbox"/>
+                 <span class="new-checkbox"></span>
+                 <span class="terms-and-conditions-declaration">I agree with the letter and accept the&nbsp</span>
+            </label>
+            <a href="#" class="terms-and-conditions">Terms and Conditions</a>
+            </div>
+            <button type="submit" class="send-button">Send</button>
+        </form>
         </div>
       </div>
 
@@ -363,6 +415,20 @@
             </svg>
           </div>
         </div>
+      </div>
+
+      <div class="subscribe-container">
+        <h3>Subscribe to the newsletter</h3>
+        <form name="subscribe-form" autocomplete="off" class="subscribe-form">
+          <label class="subscribe-mail-label">
+            <input type="e-mail" name="e-mail" placeholder="E-mail" class="subscribe-mail-input">
+          </label>
+          <button type="submit" class="subscribe-button">Subscribe
+            <svg class="send-icon">
+              <use href="./images/symbol-defs.svg#icon-send"/>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
