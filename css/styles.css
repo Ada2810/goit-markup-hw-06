@@ -181,6 +181,7 @@ header nav ul {
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-image.png);
     background-size: cover;
     height: 600px;
+    box-sizing: border-box;
 }
 
 .intro-title {
