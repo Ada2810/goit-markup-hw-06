@@ -803,10 +803,12 @@ background-color: #188CE8;
         padding: 0px;
         resize:none;
         color: var(--details-color);
+        font-family: var(--text-font-family);
 }
 
 .comments-input::placeholder{
     color: rgba(117, 117, 117, 0.5);
+    font-family: var(--text-font-family);
 }
 
 .comments-input:hover,
