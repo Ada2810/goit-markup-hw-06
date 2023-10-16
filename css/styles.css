@@ -16,6 +16,17 @@ body {
     margin: 0px;
 }
 
+.logo,
+.nav-link,
+.current::after,
+.contact-detail,
+.footer-contact-details,
+.subscribe-button,
+.request-our-services,
+.filter-button {
+    outline:none;
+}
+
 .logo {
     text-decoration:none;
     position: relative;
@@ -629,6 +640,7 @@ background-color: #188CE8;
     top: 13px;
     right: 28px;
 }
+
 /*Modal Window Form Styles*/
 
 .backdrop {
@@ -874,6 +886,12 @@ background-color: #188CE8;
     color: var(--link-color);
 }
 
+.terms-and-conditions:hover,
+.terms-and-conditions:focus,
+.terms-and-contitions:active {
+    outline: none;
+}
+
 .send-button {
     cursor: pointer;
     width: 200px;
@@ -898,6 +916,7 @@ background-color: #188CE8;
 .send-button:active {
     background-color: #188CE8;
 }
+
 /*Portofolio Styles*/
 
 .filters {
