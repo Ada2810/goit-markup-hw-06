@@ -654,6 +654,7 @@ background-color: #188CE8;
     padding: 40px;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .is-hidden {
@@ -674,6 +675,9 @@ background-color: #188CE8;
     background-color: white;
     cursor: pointer;
     background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .close-buttton {
@@ -847,6 +851,7 @@ background-color: #188CE8;
         border: 2px solid var(--text-color);
         border-radius: 2px;
         cursor: pointer;
+        box-sizing: border-box;
 }
 
 .checkbox:checked + .new-checkbox {
